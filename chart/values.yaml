@@ -8,3 +8,4 @@ targetPort: 8080
 nodePort: 30003
 postgresIP: 10.96.26.155
 postgresPort: 5432
+appVersion: 1.0.4
