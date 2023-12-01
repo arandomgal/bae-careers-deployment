@@ -1,5 +1,5 @@
 appName: bae-careers-rest-api
-imageName: ymandrews/bae-careers-rest-api:1.0.4
+imageName: ymandrews/bae-careers-rest-api:1.0.5
 replicas: 1
 serviceName: bae-careers-rest-api-svc
 hostName: api.careers.baesystems.com
@@ -8,4 +8,4 @@ targetPort: 8080
 nodePort: 30003
 postgresIP: 10.96.26.155
 postgresPort: 5432
-appVersion: 1.0.4
+appVersion: 1.0.5
