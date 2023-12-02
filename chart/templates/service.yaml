@@ -6,11 +6,8 @@ metadata:
   name: {{.Values.serviceName}}
 spec:
   ports:
-  - name: http
-    port: {{.Values.sourcePort}}
-    protocol: TCP
-    targetPort: {{.Values.targetPort}}
-    nodePort: {{.Values.nodePort}}
+    - targetPort: {{.Values.targetPort}}
+      port: {{.Values.sourcePort}}
   selector:
     app: {{.Values.appName}}
   type: ClusterIP
